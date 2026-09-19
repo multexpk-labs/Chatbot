@@ -1,0 +1,13 @@
+{
+  "name": "get_order_status",
+  "description": "Return the status of an order the authenticated user is allowed to access.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "order_id": {"type": "string"}
+    },
+    "required": ["order_id"],
+    "additionalProperties": false
+  },
+  "requires_approval": false
+}
