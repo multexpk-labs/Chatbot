@@ -1,0 +1,8 @@
+{
+  "conversation_id": "demo-001",
+  "messages": [
+    {"role": "user", "content": "What is the status of my order?"},
+    {"role": "assistant", "content": "I can check that. Please provide the order reference."},
+    {"role": "user", "content": "ORD-1001"}
+  ]
+}
